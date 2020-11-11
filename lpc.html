@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+          <link rel="icon" href="https://image.flaticon.com/icons/svg/2760/2760147.svg">
+          <title>LPC - Website</title>
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+          <style>
+               .body {user-select: none; padding: 6px; background-color: #000000;}
+               .py-1 {padding: 6px; padding-top: 12px!important;} .navbar {border-radius: 13px;} .nav-link {color: #5854cc;}
+               .btn {border-radius: 13px;} .modal-content {border-radius: 13px;}
+               .alert {border-radius: 13px; text-align: left; color: #ffffff;}
+               .x {display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap;}
+               .y {-webkit-box-flex: 1; -ms-flex: 1 0 200px; flex: 1 0 200px; margin: 6px; min-width: 200px; border-radius: 13px; color: #ffffff ; text-align: center;}
+               .position-relative {border-radius: 13px; margin: 6px; text-align: center; color: #ffffff}
+          </style>
+     </head>
+     <body class="body">
+          <div class="sticky-top site-header py-1">
+               <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-lg">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="border-radius: 13px;"><a class="navbar-toggler-icon"></a></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                         <div class="container d-flex flex-column flex-md-row justify-content-between">
+                              <a class="py-2" href="/" aria-label="Website"><img src="https://image.flaticon.com/icons/svg/2760/2760147.svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24" focusable="false"><title>Website</title></img></a>
+                              <a class="nav-link" href="/about">About</a>
+                              <a class="nav-link" href="/java">Java</a>
+                              <a class="nav-link" href="/bedrock">Bedrock</a>
+                              <a class="nav-link" href="/lpc">LPC</a>
+                              <a class="nav-link" href="/projects">Projects</a>
+                              <a class="nav-link" href="/discord">Discord</a>
+                              <a class="nav-link" href="/support">Support</a>
+                         </div>
+                    </div>
+               </nav>
+          </div>
+
+          <div class="modal fade" id="modalDisclaimer" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+               <div class="modal-dialog modal-dialog-scrollable">
+                    <div class="modal-content" style="border-radius: 13px;">
+                         <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Disclaimer</h5>
+                         </div>
+                         <div class="modal-body">
+                              This website is a random student project, and is not in relation to any brand whatsoever.
+                         </div>
+                         <div class="modal-footer">
+                              <button type="button" class="btn btn-outline-dark" data-dismiss="modal" style="border-radius: 13px;">Got it</button>
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <div class="modal fade" id="modalPrivacy" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+               <div class="modal-dialog modal-dialog-scrollable">
+                    <div class="modal-content" style="border-radius: 13px;">
+                         <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Privacy</h5>
+                         </div>
+                         <div class="modal-body">
+                              This site currently does not utilize any cookies.<br>
+                              In addition, this site is by default secured by <strong>https</strong>.<br>
+                              You don't have to worry.
+                         </div>
+                         <div class="modal-footer">
+                              <button type="button" class="btn btn-outline-dark" data-dismiss="modal" style="border-radius: 13px;">Got it</button>
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <div class="modal fade" id="modalTerms" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+               <div class="modal-dialog modal-dialog-scrollable">
+                    <div class="modal-content" style="border-radius: 13px;">
+                         <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Terms</h5>
+                         </div>
+                         <div class="modal-body">
+                              Assuming that you have read the disclaimer, all I'll say is if you plan to implement some elements into your own site, please use the source code <em>diligently</em>.
+                         </div>
+                         <div class="modal-footer">
+                              <button type="button" class="btn btn-outline-dark" data-dismiss="modal" style="border-radius: 13px;">Got it</button>
+                         </div>
+                    </div>
+               </div>
+          </div>
+
+          <div class="position-relative overflow-hidden">
+               <div class="alert bg-secondary text-white" role="alert" style="border-radius: 13px;">
+                    <button type="button" class="close " data-dismiss="alert" aria-label="Close"><span aria-hidden="true">
+                         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-check2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+                         </svg>
+                    </span></button>
+                    <strong>Announcement:</strong> Corona be weird. Wash the hands. Distance the social. Wear the mask. <a href="https://novid.org" style="color: #f0f0f0"><u>NOVID App</u></a>
+               </div>
+          </div>
+          <div class="position-relative overflow-hidden bg" style="background-color: #42b681;">
+               <div class="col-md-5 p-lg-5 mx-auto my-5">
+                    <h1 class="display-4 font-weight-normal">Lone Prairie Camp</h1>
+                    <p class="lead font-weight-normal">The number one place to spend your summer.</p>
+                    <a class="btn btn-outline-light" href="https://loneprairiecamp.com" style="border-radius: 13px;">Website</a>
+               </div>
+          </div>
+
+          <footer class="container py-5">
+               <div class="row">
+                    <div class="col-12 col-md text-white">
+                         <h1>i8&sum;&pi;</h1>
+                         <small class="d-block mb-3 text-mutedstyle">and it was delicious!</small>
+                    </div>
+                    <div class="col-6 col-md">
+                         <h5 class="text-white">Features</h5>
+                         <ul class="list-unstyled">
+                              <li><a class="text-muted" href="/java">Java</a></li>
+                              <li><a class="text-muted" href="/bedrock">Bedrock</a></li>
+                              <li><a class="text-muted" href="/lpc">LPC</a></li>
+                         </ul>
+                    </div>
+                    <div class="col-6 col-md">
+                         <h5 class="text-white">
+                              Tools
+                              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-box-arrow-up-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                   <path fill-rule="evenodd" d="M1.5 13A1.5 1.5 0 0 0 3 14.5h8a1.5 1.5 0 0 0 1.5-1.5V9a.5.5 0 0 0-1 0v4a.5.5 0 0 1-.5.5H3a.5.5 0 0 1-.5-.5V5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 0 0-1H3A1.5 1.5 0 0 0 1.5 5v8zm7-11a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-1 0V2.5H9a.5.5 0 0 1-.5-.5z"/>
+                                   <path fill-rule="evenodd" d="M14.354 1.646a.5.5 0 0 1 0 .708l-8 8a.5.5 0 0 1-.708-.708l8-8a.5.5 0 0 1 .708 0z"/>
+                              </svg>
+                         </h5>
+                         <ul class="list-unstyled text-small">
+                              <li><a class="text-muted" href="https://getbootstrap.com">Bootstrap</a></li>
+                              <li><a class="text-muted" href="https://getbootstrap.com/docs/4.5/examples/product/">Bootstrap Examples</a></li>
+                              <li><a class="text-muted" href="https://github.com">Github</a></li>
+                              <li><a class="text-muted" href="https://code.visualstudio.com">Visual Studio Code</a></li>
+                         </ul>
+                    </div>
+                    <div class="col-6 col-md">
+                         <h5 class="text-white">About</h5>
+                         <ul class="list-unstyled text-small">
+                              <li><a class="text-muted" href="" data-toggle="modal" data-target="#modalDisclaimer">DISCLAIMER</a></li>
+                              <li><a class="text-muted" href="/about">About This Website</a></li>
+                              <li><a class="text-muted" href="/support">Developers</a></li>
+                         </ul>
+                    </div>
+                    <div class="col-6 col-md">
+                         <h5 class="text-white">Quick Links</h5>
+                         <ul class="list-unstyled text-small">
+                              <li><a class="text-muted" href="/support">Support</a></li>
+                              <li><a class="text-muted" href="" data-toggle="modal" data-target="#modalPrivacy">Privacy</a></li>
+                              <li><a class="text-muted" href="" data-toggle="modal" data-target="#modalTerms">Terms</a></li>
+                         </ul>
+                    </div>
+               </div>
+          </footer>
+     </body>
+
+     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</html>
