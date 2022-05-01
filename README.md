@@ -1,2 +1,2 @@
-# v6.0
-[Website](https://claclator.github.io)
+# random website project from 2020
+[Website](https://academichael.github.io)
