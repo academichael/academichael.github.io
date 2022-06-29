@@ -1,2 +1,2 @@
-# random website project from 2020
+### 2020 Website Project
 [Website](https://yangski.github.io)
